@@ -73,36 +73,36 @@ where the "#text" is the value and "@units" is the units. In this case, the X co
 
 10. Type `curl localhost:5016/countries/<specific-country>/regions/<specific-region>/cities/<specific-city>` returns a dictionary of all sightings in that specific country, region, and city. For example, `curl localhost:5016/countries/United_States/regions/Wyoming/cities/Basin`
 
-{
-  "United_States, Wyoming, Basin": [
-    {
-      "city": "Basin",
-      "country": "United_States",
-      "duration_minutes": "5",
-      "enters": "10 above S",
-      "exits": "10 above E",
-      "max_elevation": "22",
-      "region": "Wyoming",
-      "sighting_date": "Fri Feb 18/06:00 AM",
-      "spacecraft": "ISS",
-      "utc_date": "Feb 18, 2022",
-      "utc_offset": "-7.0",
-      "utc_time": "13:00"
-    },
-    {
-      "city": "Basin",
-      "country": "United_States",
-      "duration_minutes": "3",
-      "enters": "10 above SSE",
-      "exits": "10 above ESE",
-      "max_elevation": "13",
-      "region": "Wyoming",
-      "sighting_date": "Sat Feb 19/05:13 AM",
-      "spacecraft": "ISS",
-      "utc_date": "Feb 19, 2022",
-      "utc_offset": "-7.0",
-      "utc_time": "12:13"
-    },
+{  
+  "United_States, Wyoming, Basin": [  
+    {  
+      "city": "Basin",  
+      "country": "United_States",  
+      "duration_minutes": "5",  
+      "enters": "10 above S",  
+      "exits": "10 above E",  
+      "max_elevation": "22",  
+      "region": "Wyoming",  
+      "sighting_date": "Fri Feb 18/06:00 AM",  
+      "spacecraft": "ISS",  
+      "utc_date": "Feb 18, 2022",  
+      "utc_offset": "-7.0",  
+      "utc_time": "13:00"  
+    },  
+    {  
+      "city": "Basin",  
+      "country": "United_States",  
+      "duration_minutes": "3",  
+      "enters": "10 above SSE",  
+      "exits": "10 above ESE",  
+      "max_elevation": "13",  
+      "region": "Wyoming",  
+      "sighting_date": "Sat Feb 19/05:13 AM",  
+      "spacecraft": "ISS",  
+      "utc_date": "Feb 19, 2022",  
+      "utc_offset": "-7.0",  
+      "utc_time": "12:13"  
+    },  
 
 This snip shows the first two sightings. The key is the location (United States, Wyoming, Basin) and the value is all the sightings that occurred in Basin and the data for each sighting.
 
@@ -110,4 +110,15 @@ Alternate Instructions Using Makefile
 -------------------------------------
 Another way to run Flask using the container is to use the existing Makefile in the repository.
 
+1. Ensure that the `Makefile` file is in the current directory.
+
+2. Type `make all` into the terminal.
+
+3. Use `curl localhost:5016/` like shown in `Instructions to Interact With All Routes Using curl`
+
+Citations
+---------
+Goodwin, Scott. “ISS_COORDS_2022-02-13 ISS.OEM_J2K_EPH.xml.” NASA. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_OEM/ISS.OEM_J2K_EPH.xml]
+
+Goodwin, Scott. “ISS_COORDS_2022-02-13 XMLsightingData_citiesUSA11.xml.” NASA. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_sightings/XMLsightingData_citiesUSA11.xml]
 
