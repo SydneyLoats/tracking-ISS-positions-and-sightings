@@ -118,7 +118,7 @@ Another way to run Flask using the container is to use the existing Makefile in 
 
 Citations
 ---------
-Goodwin, Scott. “ISS_COORDS_2022-02-13 ISS.OEM_J2K_EPH.xml.” NASA. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_OEM/ISS.OEM_J2K_EPH.xml]
+Goodwin, Scott. “ISS_COORDS_2022-02-13 ISS.OEM_J2K_EPH.xml.” _NASA_. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_OEM/ISS.OEM_J2K_EPH.xml]
 
-Goodwin, Scott. “ISS_COORDS_2022-02-13 XMLsightingData_citiesUSA11.xml.” NASA. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_sightings/XMLsightingData_citiesUSA11.xml]
+Goodwin, Scott. “ISS_COORDS_2022-02-13 XMLsightingData_citiesUSA11.xml.” _NASA_. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_sightings/XMLsightingData_citiesUSA11.xml]
 
