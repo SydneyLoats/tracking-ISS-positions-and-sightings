@@ -32,32 +32,32 @@ Instructions to Interact With All Routes Using curl
 
 4. Type `curl localhost:5016/epoch/<epoch-name>` to return a dictionary of the information about a specific epoch. The dictionary has keys that represent the type of information, where the value is the value of that specific piece of information. For example, `curl localhost:5016/epoch/2022-057T12:00:00.000Z` returns:
 
-{
-  "X": {
-    "#text": "6626.5027288478996",
-    "@units": "km"
-  },
-  "X_DOT": {
-    "#text": "-0.48760287876274999",
-    "@units": "km/s"
-  },
-  "Y": {
-    "#text": "-824.23928357807699",
-    "@units": "km"
-  },
-  "Y_DOT": {
-    "#text": "4.9312583060242199",
-    "@units": "km/s"
-  },
-  "Z": {
-    "#text": "-1255.3633426653601",
-    "@units": "km"
-  },
-  "Z_DOT": {
-    "#text": "-5.8454326130222896",
-    "@units": "km/s"
-  }
-}
+{  
+  "X": {  
+    "#text": "6626.5027288478996",  
+    "@units": "km"  
+  },  
+  "X_DOT": {  
+    "#text": "-0.48760287876274999",  
+    "@units": "km/s"  
+  },  
+  "Y": {  
+    "#text": "-824.23928357807699",  
+    "@units": "km"  
+  },  
+  "Y_DOT": {  
+    "#text": "4.9312583060242199",  
+    "@units": "km/s"  
+  },  
+  "Z": {  
+    "#text": "-1255.3633426653601",  
+    "@units": "km"  
+  },  
+  "Z_DOT": {  
+    "#text": "-5.8454326130222896",  
+    "@units": "km/s"  
+  }  
+}  
 
 where the "#text" is the value and "@units" is the units. In this case, the X coordinate is at about 6626.5 km.
 
