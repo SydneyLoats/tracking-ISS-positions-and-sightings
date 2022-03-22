@@ -118,7 +118,15 @@ Another way to run Flask using the container is to use the existing Makefile in 
 
 Citations
 ---------
+“Citation Help: Citing Data & Statistics.” _Research Guides_, https://guides.lib.umich.edu/c.php?g=282964&p=3285995#:~:text=Data%20requires%20citations%20for%20the,other%20researchers%20find%20the%20resource. 
+
+Code of Ethics _AIAA_. https://www.aiaa.org/about/Governance/Code-of-Ethics. 
+
+Dunbar, Brian. “What Is the International Space Station?” _NASA_. 2 June 2015, https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-the-iss-58.html.
+
 Goodwin, Scott. “ISS_COORDS_2022-02-13 ISS.OEM_J2K_EPH.xml.” _NASA_. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_OEM/ISS.OEM_J2K_EPH.xml]
+
+Goodwin, Scott. “ISS_COORDS_2022-02-13.” _NASA_. https://data.nasa.gov/Space-Science/ISS_COORDS_2022-02-13/r6u8-bhhq.
 
 Goodwin, Scott. “ISS_COORDS_2022-02-13 XMLsightingData_citiesUSA11.xml.” _NASA_. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_sightings/XMLsightingData_citiesUSA11.xml]
 
