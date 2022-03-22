@@ -124,9 +124,9 @@ Code of Ethics _AIAA_. https://www.aiaa.org/about/Governance/Code-of-Ethics.
 
 Dunbar, Brian. “What Is the International Space Station?” _NASA_. 2 June 2015, https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-the-iss-58.html.
 
-Goodwin, Scott. “ISS_COORDS_2022-02-13 ISS.OEM_J2K_EPH.xml.” _NASA_. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_OEM/ISS.OEM_J2K_EPH.xml]
+Goodwin, Scott. “ISS_COORDS_2022-02-13 ISS.OEM_J2K_EPH.xml.” _NASA_. 13 Feb. 2022. https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_OEM/ISS.OEM_J2K_EPH.xml
 
 Goodwin, Scott. “ISS_COORDS_2022-02-13.” _NASA_. https://data.nasa.gov/Space-Science/ISS_COORDS_2022-02-13/r6u8-bhhq.
 
-Goodwin, Scott. “ISS_COORDS_2022-02-13 XMLsightingData_citiesUSA11.xml.” _NASA_. 13 Feb. 2022. [https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_sightings/XMLsightingData_citiesUSA11.xml]
+Goodwin, Scott. “ISS_COORDS_2022-02-13 XMLsightingData_citiesUSA11.xml.” _NASA_. 13 Feb. 2022. https://nasa-public-data.s4.amazonaws.com/iss-coords/2022-02-13/ISS_sightings/XMLsightingData_citiesUSA11.xml
 
